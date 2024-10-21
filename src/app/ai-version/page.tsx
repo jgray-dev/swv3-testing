@@ -23,8 +23,8 @@ const loadGoogleMapsAPI = (() => {
         };
 
         // Create script element
-        const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAhjtgDzeSA7mogbGmREBRM6_EpdEro7SY&callback=initMap`;
+        const script = document.createElement('script'); 
+        script.src = `https://maps.googleapis.com/maps/api/js?key=DIE`;
         // disabled this api key, kindly go fuck yourself git && stackoverflow telling me that dumbass command i ran was gonna remove this commit from the push
         script.async = true;
         script.defer = true;
